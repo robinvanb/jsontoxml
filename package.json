@@ -1,0 +1,18 @@
+{
+  "name": "tech-day",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "MoreApp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.0",
+    "body-parser": "^1.12.0",
+    "node-zip": "^1.1.0",
+    "oauth": "^0.9.12",
+    "promise": "^6.1.0",
+    "form-data": "^0.2.0",
+    "request": "^2.53.0"
+  }
+}

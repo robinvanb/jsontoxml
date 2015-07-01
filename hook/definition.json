@@ -1,0 +1,39 @@
+{
+  "endpoint" : {
+    "handle" : "IGNORED",
+    "status" : "IGNORED",
+    "test" : null,
+    "arguments" : []
+  },
+  "configuration" : [
+    {
+      "type" : "text",
+      "key" : "name",
+      "defaultValue" : null,
+      "required" : true,
+      "name" : "Name",
+      "description" : "Enter your name Neo"
+    },
+    {
+      "type" : "lookup_value",
+      "key" : "pillColor",
+      "defaultValue" : "blue",
+      "required" : true,
+      "name" : "Choose pill color",
+      "description" : "The color of the pill",
+      "configuration" : {
+        "options" : [
+          {
+            "id" : "blue",
+            "value" : "Blue"
+          },
+          {
+            "id" : "red",
+            "value" : "Red"
+          }
+        ],
+        "multiple" : false
+      }
+    }
+  ]
+}
